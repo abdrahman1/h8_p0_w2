@@ -1,0 +1,19 @@
+1.  STORE 'orderCount with 0
+2.  CREATE function 'takeOrder' with two paramter 'crustType' and 'Topping'
+3.  inside it DISPLAY a string like 'Order: ' followed by value of 'crustType' then 'pizza topped with ' followed by value of 'Topping'. End
+---END Function 'takeOrder'
+4.  INCREMENT 'orderCount' by 1
+6.  CREATE another function called 'getSubTotal' with parameter 'itemCount'
+7.  inside it inisiate RETURN with 'itemCount' times 7.5
+---END Function 'getSubTotal'.
+8.  CREATE function called 'getTax'
+9.  RETURN by the value 'getSubTotal' and argument 'orderCount' within then times 7.5
+10.
+---END Function 'getTax'
+11. CREATE function 'getTotal' 
+12. RETURN by the value 'getSubTotal' and ' and argument 'orderCount' within then times 6 divided 100
+---END Function 'getTotal'
+13. CALL function 'takeOrder' with argument 'thin crust' and 'bacon'
+14. CALL function 'takeOrder' with argument 'cicago's style' and 'papperoni'
+15  CALL function 'takeOrfer' with argument 'Florida's style', 'tuna');
+16. DISPLAY using CALL function getTotal.
