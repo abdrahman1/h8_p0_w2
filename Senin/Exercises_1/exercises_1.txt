@@ -63,9 +63,9 @@ STORE "kids" with 40
 STORE "badNail" with boolean value true
 WHILE "kids" > 0
     IF "badNail"
-        DISPLAY "getting punishment"
+        DISPLAY "get punishment"
     ELSE
-        DISPLAY "getting complement"
+        DISPLAY "get complement"
     SUBSTRACT "kids" by 1.
 DISPLAY "Teach done with patrol"
 
@@ -77,4 +77,4 @@ DISPLAY "Teach done with patrol"
 6. Tampilkan "getting punishment"
 7. Tampilkan "getting complement"
 8. Kurangi nilai "kids" dengan 1.
-9. keluar dari while loop, tampilkan "Tech done with patrol".
+9. keluar dari while loop, tampilkan "Teach done with patrol".
