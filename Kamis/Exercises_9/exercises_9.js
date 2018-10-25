@@ -12,8 +12,8 @@ console.log(shoutOut());
 
 // ========[2]
 function calculateMultiply(num1, num2) {
-    var Multiply = num1 * num2;
-    return Multiply;
+    var multiply = num1 * num2;
+    return multiply;
 }
 var hasilPerkalian = calculateMultiply(2, 5);
 console.log(hasilPerkalian); 
