@@ -41,28 +41,29 @@ ELSE
 STORE "cloth" with value 1
 STORE "remainder" with value 0
 WHILE "cloth" < 21
+    DISPLAY "cloth"
     ADD "remainder" by the value of "cloth"
-    DISPLAY a String by adding up string "current cloth are " followed by "remainder";  
     ADD "cloth" by 1
-DISPLAY a String "Cloth already " by adding "remainder"
+DISPLAY "remainder"
 DISPLAY "start the washing machine"
 
 # ==ALGORITMA
 1.  SIMPAN "cloth" dengan nilai 1.
 2.  SIMPAN "remainder" dengan nilai 0.
 3.  Ulangi step 4, 5 dan 6 selama "cloth" masih di bawah 21, lanjut ke step 7.
-4.  Tambahkan "remainder" dengan nilai yang ada pada "cloth".
-5.  Tampilkan string "current cloth are " yang diikuti oleh nilai dari "remainder"
-6.  Tambahkan "cloth" dengan 1.
-7.  Tampilkan string "cloth already " dengan tambahan nilai dari "remainder"
+4.  Tampilkan "cloth".
+5.  Tambahkan "remainder" dengan nilai yang ada pada "cloth".
+6.  Tambahkan "remainder" dengan 1.
+7.  Tampilkan "remainder"
 8.  Tampilkan string "start the washing machine".
 
 # =4
 # ==PSEUDOCODE
 STORE "kids" with 40
-STORE "badNail" with boolean value true
+STORE "isNail" without value;
+STORE "badNail" with value "not cutting nail"
 WHILE "kids" > 0
-    IF "badNail"
+    IF "isNail" == "badNail"
         DISPLAY "getting punishment"
     ELSE
         DISPLAY "getting complement"
@@ -71,10 +72,11 @@ DISPLAY "Teach done with patrol"
 
 #==ALGORITMA
 1. SIMPAN "kids" dengan nilai 40
-2. SIMPAN "badNail" dengan nilai boolean true.
-3. ulang step 4 s.d 7 selama nilai dari pengurangan "kid" belum sampai nol, lanjut ke step 6.
-4. Jika "badNail" ditemukan, maka jalankan perintah di step 5, jika tidak, lewati dan lanjut ke step 7.
+2. SIMPAN "isNail" tanpa nilai
+3. SIMPAN "badNail" dengan nilai "not cutting nail".
+4. ulang step 5 s.d 8 selama nilai dari pengurangan "kid" belum sampai nol, lanjut ke step 6.
+5. Jika "isNail" sama dengan "badNail", maka jalankan perintah di step 6, jika tidak lanjut ke step 7.
 6. Tampilkan "getting punishment"
 7. Tampilkan "getting complement"
 8. Kurangi nilai "kids" dengan 1.
-9. keluar dari while loop, tampilkan "Tech done with patrol".
+9. keluar dari while loop, tampilkan "Teacher done with patrol".
