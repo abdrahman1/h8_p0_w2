@@ -16,7 +16,11 @@ function angkaJam(bil) {
 
 function angkaMenit(bil) {
     var menit = bil % 60;
-    return menit;
+    if (menit < 10 ) {
+        return '0'+menit;
+    } else {
+        return menit;
+    }
 }
 
 
