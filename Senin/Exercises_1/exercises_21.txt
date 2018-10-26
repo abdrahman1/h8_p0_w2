@@ -1,0 +1,80 @@
+ 
+h8_p0_w2
+exercises 1
+
+# =1
+# ==PSEUDOCODE
+STORE "m" with value 600
+STORE "a" with value 2
+STORE "f" without value
+
+CALCULATED "m" times "a"
+
+SET "f" value with calculation result
+DISPLAY "f"
+
+#ALGORITMA
+1.  simpan "m" dengan nilai 600
+2.  simpan "a" dengan nilai 2
+3.  simpan "f" tanpa nilai
+4.  hitung hasil perkalian "m" dengan "a"
+5.  isikan hasil perhitunan ke "f"
+6.  tampilkan nilai "f"
+
+# =2
+# ==PSEUDOCODE
+STORE "year" with any value of type number
+IF "year" mod 4 = 0 AND "years" mod 100 != 0 OR "year" mod 4 = 0 AND "year" mod 100 = 0 AND "year" mod 400 = 0
+    DISPLAY " 'year' is leap years "
+ELSE 
+    DISPLAY " 'year' is not leap years "
+
+# ==ALGORITMA
+1.  SIMPAN "year" dengan nilai apapun berjenis number
+2.  jika (perhitungan modula "year" habis dibagi 4 DAN modula "year" tidak habis dibagi 100) ATAU, 
+    (perhitungan modula "year" habis dibagi 4 DAN modula "year" habis dibagi 100 DAN modula "year" habis dibagi 400) maka jalankan perintah no. 3, jika tidak lompati dan lanjutkan ke no. 4. 
+3.  tampilkan "year" dengan tambahan string "is leap years".
+4.  tampilkan "year" dengan tambahan string "is not leap years".
+
+# =3 
+# ==PSEUDOCODE
+STORE "cloth" with value 1
+STORE "remainder" with value 0
+WHILE "cloth" < 21
+    ADD "remainder" by the value of "cloth"
+    DISPLAY a String by adding up string "current cloth are " followed by "remainder";  
+    ADD "cloth" by 1
+DISPLAY a String "Cloth already " by adding "remainder"
+DISPLAY "start the washing machine"
+
+# ==ALGORITMA
+1.  SIMPAN "cloth" dengan nilai 1.
+2.  SIMPAN "remainder" dengan nilai 0.
+3.  Ulangi step 4, 5 dan 6 selama "cloth" masih di bawah 21, lanjut ke step 7.
+4.  Tambahkan "remainder" dengan nilai yang ada pada "cloth".
+5.  Tampilkan string "current cloth are " yang diikuti oleh nilai dari "remainder"
+6.  Tambahkan "cloth" dengan 1.
+7.  Tampilkan string "cloth already " dengan tambahan nilai dari "remainder"
+8.  Tampilkan string "start the washing machine".
+
+# =4
+# ==PSEUDOCODE
+STORE "kids" with 40
+STORE "badNail" with boolean value true
+WHILE "kids" > 0
+    IF "badNail"
+        DISPLAY "get punishment"
+    ELSE
+        DISPLAY "get complement"
+    SUBSTRACT "kids" by 1.
+DISPLAY "Teach done with patrol"
+
+#==ALGORITMA
+1. SIMPAN "kids" dengan nilai 40
+2. SIMPAN "badNail" dengan nilai boolean true.
+3. ulang step 4 s.d 7 selama nilai dari pengurangan "kid" belum sampai nol, lanjut ke step 6.
+4. Jika "badNail" ditemukan, maka jalankan perintah di step 5, jika tidak, lewati dan lanjut ke step 7.
+6. Tampilkan "getting punishment"
+7. Tampilkan "getting complement"
+8. Kurangi nilai "kids" dengan 1.
+9. keluar dari while loop, tampilkan "Teach done with patrol".

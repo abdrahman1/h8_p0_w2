@@ -1,21 +1,36 @@
+/**
+ * 
+ */
+function segitigaSetengahKetupanKanan(row) {
+    var hasil = segitigaSisiKanan(row) + '\n' + segitigaSisiKananBawah(row);
+    return hasil;
+}
 
-var row2 = 5;
-var col2 = 5;
-for (var i = 0; i < row2; i++) {
-    for (var j = 0; j < col2; j++) {
-        process.stdout.write('*');
-        
+function segitigaSisiKanan(row) {
+    for (var i = 0; i < row; i++) {
+        var tampung = '';
+        for (j = 0; j < i; j++) {
+            tampung = tampung + '*';
+        }
+        console.log(tampung);
+
+    } 
+    return '';
+}
+
+function segitigaSisiKananBawah(row) {
+    var tampung = '';
+    for (var i = row; i > 0; i--) {
+        tampung = '';
+        for (var j = i; j > 0; j--) {
+            tampung = tampung + '*';
+        }
+        console.log(tampung);
     }
-    process.stdout.write('\n');
+    return '';
 }
-console.log('---------------');
-var row3 = 5;
-hasil = '';
-for (var i = 0; i < 5; i++) {
-//    for (var j = 0; j < 5; j++) {
-       
-//    }
-   console.log('*'.repeat(i));
-}
-var lima = 5;
-// console.log('*'.repeat(lima));
+// segitigaSisiKanan(5);
+// console.log('------------');
+// segitigaSisiKananBawah(5);
+segitigaSetengahKetupanKanan(5);
+

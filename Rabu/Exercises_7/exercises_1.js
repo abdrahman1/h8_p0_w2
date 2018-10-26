@@ -36,11 +36,13 @@ console.log('2. b. bintang nested loop');
 var row2 = 5;
 var col2 = 5;
 for (var i = 0; i < row2; i++) {
+    var hasil = "";
     for (var j = 0; j < col2; j++) {
-        process.stdout.write('*');
-        
+        // process.stdout.write('*');
+        hasil += '*'    
     }
-    process.stdout.write('\n');
+    console.log(hasil);
+    // process.stdout.write('\n');
 }
 
 // ========[3]
@@ -48,10 +50,13 @@ for (var i = 0; i < row2; i++) {
 console.log('3. menyusun barisan tangga');
 var row3 = 5;
 for (var i=0; i<row3; i++) {
+    var hasil2 = '';
     for (var j=0; j<i+1; j++) {
-        process.stdout.write('*');
+        // process.stdout.write('*');
+        hasil2 += '*';
     }
-    process.stdout.write('\n');
+    console.log(hasil2);
+    // process.stdout.write('\n');
 }
 
 
