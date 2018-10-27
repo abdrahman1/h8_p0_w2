@@ -1,6 +1,6 @@
 /**
  * Segitiga sama sisi dan terbalik 
- * penggabungan dua segita
+ * penggabungan dua segita / mirroring
  * ouput 1:         *
  *                 ***
  *                *****
@@ -14,9 +14,14 @@
  *                  * 
  */
 
-function ketupat(row1, row2) {
-    return segitiga(row1) + segitigaTerbalik(row2);
+function ketupat(row) {
+    var row1 = row-1;
+    return segitiga(row) + segitigaTerbalik(row1);
 }
+
+// function rowKetupatKeRowSegitiga(row) {
+//     row = (row/2
+// }
 
 function segitiga(row) {
     for (var i = 0; i < row; i++) {
@@ -50,4 +55,4 @@ function segitigaTerbalik(row) {
     }
 }
 
-ketupat(5, 4);
+ketupat(5);
