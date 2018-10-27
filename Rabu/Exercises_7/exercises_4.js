@@ -9,7 +9,7 @@
 
 
 
-function setengahSegitigaKiri(row) {
+function setengahSegitigaKiri(row) { // awal 0
     for (var i = 0; i < row; i++) {
         var hasil = '';
         for (var j = 0; j < ((row - 1) - i); j++) {
@@ -22,7 +22,7 @@ function setengahSegitigaKiri(row) {
     }
 }
 
-function setengahSegitigaKiri2(row) {
+function setengahSegitigaKiri2(row) { // awal 1
     for (var i = 1; i <= row; i++) {
         var hasil = '';
         for (var j = 1; j <= (row - i); j++) {
