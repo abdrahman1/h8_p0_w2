@@ -15,23 +15,14 @@ console.log('1. menyusun barisan bintang');
 var row = 5;
 var col = 1;
 for (var i = 0; i < row; i++) {
+    // hasil = '';
     for (var j = 0; j < col; j++) {
-        process.stdout.write('*');
+        // hasil += '*';
+        console.log('*');
     }
-    process.stdout.write('\n');
+    // console.log(hasil);
 }
 console.log('2. b. bintang nested loop');
-// ========[2]
-// hasil2 = ' ';
-// var row2 = 5;
-// var col2 = 5;
-// for (var i = 0; i < row2; i++) {
-//     for (var j = 0; j < col2; j++) {
-//         hasil2 += '*'
-//         console.log(hasil2);
-//     }
-//     console.log(hasil2);   
-// }
 
 var row2 = 5;
 var col2 = 5;
