@@ -40,14 +40,18 @@ for (var i = 0; i < row2; i++) {
 // menyusun barisan tangga
 console.log('3. menyusun barisan tangga');
 var row3 = 5;
+var hasil2 = '';
 for (var i=0; i<row3; i++) {
-    var hasil2 = '';
+    // hasil2 += '|';
+    // var hasil2 = '';
     for (var j=0; j<i+1; j++) {
         // process.stdout.write('*');
         hasil2 += '*';
     }
-    console.log(hasil2);
+    // console.log(hasil2);
     // process.stdout.write('\n');
+    hasil += '\n';
 }
+console.log(hasil);
 
 
