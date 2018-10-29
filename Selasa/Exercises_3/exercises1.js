@@ -1,15 +1,15 @@
 var nama = 'John';
-var pilihPeran = 'Tabib';
+var pilihPeran = 'Ksatria';
 var peran;
 var ket;
 console.log('Halo '+nama+', Pilih peranmu untuk memulai game!');
-if (pilihPeran == 'Kstatria') {
+if (pilihPeran == 'Ksatria' || pilihPeran == 'ksatria') {
     peran = 'Ksatria';
     ket = 'kamu dapat menyerang dengan senjatamu';
-} else if (pilihPeran == 'Tabib') {
+} else if (pilihPeran == 'Tabib' || pilihPeran == 'tabib') {
     peran = 'Tabib';
     ket = 'kamu akan membantu temanmu yang terluka';
-} else if (pilihPeran == 'Penyihir') {
+} else if (pilihPeran == 'Penyihir' || pilihPeran == 'penyihir') {
     peran = 'Penyihir';
     ket = 'ciptakan keajaiban yang membantu kemenangan!';
 } else {
