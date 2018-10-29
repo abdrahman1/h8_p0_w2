@@ -14,7 +14,7 @@ console.log('1. menyusun barisan bintang');
 // }
 var row = 5;
 var col = 1;
-for (var i = 0; i < row; i++) {
+for (var i = 1; i <= row; i++) {
     // hasil = '';
     for (var j = 0; j < col; j++) {
         // hasil += '*';
@@ -43,15 +43,15 @@ var row3 = 5;
 var hasil2 = '';
 for (var i=0; i<row3; i++) {
     // hasil2 += '|';
-    // var hasil2 = '';
+    var hasil2 = '';
     for (var j=0; j<i+1; j++) {
         // process.stdout.write('*');
         hasil2 += '*';
     }
-    // console.log(hasil2);
+    console.log(hasil2);
     // process.stdout.write('\n');
-    hasil += '\n';
+    // hasil2 += '\n';
 }
-console.log(hasil);
+// console.log(hasil2);
 
 
